@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LCS</title>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo">
+					<img src="images/logo.png" alt="" width="55%">
+					<span>LCS</span>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="#">Inicio</a></li>
+						<li class="main_nav_item"><a href="instalaciones.html">Instalaciones</a></li>
+						<li class="main_nav_item"><a href="courses.html">Oferta Academica</a></li>
+						<li class="main_nav_item"><a href="50años.html">50 Años</a></li>
+						<li class="main_nav_item"><a href="novedades.html">Novedades</a></li>
+						<li class="main_nav_item"><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-row justify-content-center align-items-center">
+			<img src="images/phone-call.svg" alt="">
+			<span>2556-5405</span>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="#">Inicio</a></li>
+					<li class="menu_item menu_mm"><a href="instalaciones.html">Instalaciones</a></li>
+					<li class="menu_item menu_mm"><a href="courses.html">Oferta Academica</a></li>
+					<li class="menu_item menu_mm"><a href="50años.html">50 Años</a></li>
+					<li class="menu_item menu_mm"><a href="novedades.html">Novedades</a></li>
+					<li class="menu_item menu_mm"><a href="contacto.html">Contacto</a></li>
+				</ul>
+
+				<!-- Menu Social -->
+				
+				<div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="menu_copyright menu_mm">LCS All rights reserved</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+		<!-- Hero Slider -->
+		<div class="hero_slider_container">
+			<div class="hero_slider owl-carousel">
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(images/instalacion2.jpeg)"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>LICEO CULTURAL SANTIAGUEÑO</span></h1>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(https://image.freepik.com/vector-gratis/fondo-lineas-zoom-perspectiva-estilo-tecnologia-azul_1017-23549.jpg)"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>50 años de Servicio</span></h1>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(images/index1.jpeg)"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"> <span>SABIDURIA Y ENSEÑANZA</span></h1>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">prev</span></div>
+			<div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">next</span></div>
+		</div>
+
+	</div>
+
+	<div class="hero_boxes">
+		<div class="hero_boxes_inner">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-4 hero_box_col">
+						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+							<img src="images/earth-globe.svg" class="svg" alt="">
+							<div class="hero_box_content">
+								<h2 class="hero_box_title">Fundadores</h2>
+								<a href="fundadores.html" class="hero_box_link">ver mas</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 hero_box_col">
+						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+							<img src="images/books.svg" class="svg" alt="">
+							<div class="hero_box_content">
+								<h2 class="hero_box_title">DIRECTOR</h2>
+								<a href="director.html" class="hero_box_link">ver mas</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 hero_box_col">
+						<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+							<img src="images/professor.svg" class="svg" alt="">
+							<div class="hero_box_content">
+								<h2 class="hero_box_title">Nuestros Docentes</h2>
+								<a href="teachers.html" class="hero_box_link">ver mas</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Popular -->
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+	  </div>
+	<div class="popular page_section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1 class="text-danger">Quienes Somos</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row course_boxes">
+				
+				<!-- Popular Course Item -->
+				<div class="card-deck ">
+					<div class="card">
+					  <img src="images/MISION.jpeg" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h3 class="card-title text-danger text-center">Misión</h3>
+						<p class="card-text text-dark text-justify">Somos un centro educativo que forma ciudadanos integrales, para que cumplan con las exigencias de una sociedad dinámica 
+							y con un alto grado de conciencia social en beneficio de nuestra comunidad.</p>
+					  </div>
+					</div>
+					<div class="card">
+						<img src="images/VALORES.jpeg" class="card-img-top" alt="...">
+						<div class="card-body CARD-DA">
+					  <h3 class="card-title text-danger text-center">Valores</h3>
+						  <p class="card-text text-dark text-center ">Responsabilidad.</p>
+						  <p class="card-text text-dark text-center">Solidaridad.</p>
+						  <p class="card-text text-dark text-center">Tolerancia.</p>
+						  <p class="card-text text-dark text-center">Sinceridad.</p>
+						  <p class="card-text text-dark text-center">Perseverancia.</p>	
+						</div>
+					  </div>
+					<div class="card">
+					  <img src="images/VISION.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h3 class="card-title text-danger text-center">Visión</h3>
+						<p class="card-text text-dark text-justify">Ser un centro educativo que a través de la enseñanza y un ambiente óptimo propicie el descubrimiento de habilidades,
+							 destrezas y valores en los educandos..</p>
+					  </div>
+					</div>	
+				  </div>
+
+					
+					
+
+	<!-- Services -->
+		  
+	<div class="services page_section">
+		<div class="progress">
+			<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+		  </div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1 class="text-danger">Generalidades. </h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row services_row">
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/ubicacion.jpg" alt="">
+					</div>
+					<h3 class="text-danger">UBICACIÓN GEOGRÁFICA.</h3>
+					<p class="text-dark text-justify">El Liceo cultural Santiagueño está ubicado en la ciudad de Santiago de María departamento de Usulután, en la segunda calle oriente, barrio la parroquia. </p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/fisico.jpg" alt="">
+					</div>
+					<h3 class="text-danger">ASPECTO FÍSICO</h3>
+					<p class="text-dark text-justify">El Liceo cultural Santiagueño está ubicado en la zona céntrica de Santiago de María y cuenta con una infraestructura, dividida en nueve aulas, 6 que son utilizadas para qué los alumnos reciban sus respectivas clases</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/tecnologia.jpg" alt="">
+					</div>
+					<h3 class="text-danger">TECNOLOGIA</h3>
+					<p class="text-dark text-justify">Contamos centro de cómputo y el laboratorio de ciencias y la biblioteca,
+					   Desde el 2004 debido a la demanda de estudiantes nos trasladamos del local,
+					   para ofrecer un mejor ambiente y comodidad a los estudiantes.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/economico.jpg" alt="">
+					</div>
+					<h3 class="text-danger">ASPECTOS ECONÓMICOS</h3>
+					<p class="text-dark text-justify">La economía de la comunidad gira alrededor de las actividades agrícolas, profesionales y remesas familiares de los Estados Unidos, 
+					   la comunidad educativa recibe de sus estudiantes cuotas diferenciadas de acuerdo al grado académico.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/social.jpg" alt="">
+					</div>
+					<h3 class="text-danger">ASPECTO SOCIAL </h3>
+					<p class="text-dark text-justify">Se observa en la población, en las diferentes familias y estrato social se puede clasificar en clase baja y media. Las tradiciones que posee la comunidad son de tipo religiosa, 
+						la cual las iglesias protestantes y católicas son las que predominan sobre otros grupos religiosos.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/comunidad.jpg" alt="">
+					</div>
+					<h3 class="text-danger">NUESTRA COMUNIDAD</h3>
+					<p class="text-dark text-justify">La comunidad cuenta con los servicios siguientes: juzgado de paz, alcaldía municipal, hospital nacional, mercado municipal, puesto de PNC, Iglesias católicas, y protestantes, radioemisoras, las oficinas jurídicas, servicios médicos y privadas, servicios jurídicos..</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Testimonials -->
+	
+	<div class="testimonials page_section">
+		<!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
+		<div class="testimonials_background_container prlx_parent">
+			<div class="testimonials_background prlx" style="background-image:url(images/banner.jpg)"></div>
+		</div>
+		<div class="container">
+
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Felicitaciones por  50 Años de Servicio Educativo</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					
+					<div class="testimonials_slider_container">
+
+						<!-- Testimonials Slider -->
+						<div class="owl-carousel owl-theme testimonials_slider">
+							
+							<!-- Testimonials Item -->
+							<div class="owl-item">
+								<div class="testimonials_item text-center">
+									<h3 class="testimonials_text">Muchas felicidades a la gran familia del Liceo Cultural Santiagueño por sus 50 años al servicio de la educación, formando grandes profesionales!!.</h3>
+									<div class="testimonial_user">
+										<div class="testimonial_image mx-auto">
+											<img src="images/testimonio1.jpg" alt="">
+										</div>
+										<div class="testimonial_name">Conectate Santiago de Maria</div>
+										<div class="testimonial_title">Medio de Comunicacion Local</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonials Item -->
+							<div class="owl-item">
+								<div class="testimonials_item text-center">
+									<h3 class="testimonials_text">Felices 50 años Liceo Cultural Santiagueño</h3>
+									<div class="testimonial_user">
+										<div class="testimonial_image mx-auto">
+											<img src="images/testimonio2.jpg" alt="">
+										</div>
+										<div class="testimonial_name">Dr. Wilber Argueta</div>
+										<div class="testimonial_title">Ex-alumno de nuestro colegio </div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Testimonials Item -->
+							<div class="owl-item">
+								<div class="testimonials_item text-center">
+									<h3 class="testimonials_text">Fue un Honor participar de los 50' Años de Existencia del #Colegio #Liceo #Cultural #Santiagueño. No me imaginé aprender muchas cosas de mi profesor Guía, mi hermano, te agradezco por tu "Don de enseñanza, tus regaños para imponernos disciplina. A los Directores y Maestros que abonaron para descubrir en nosotros capacidades y aptitudes. DIOS LOS BENDIGA A TODOS.</h3>
+									<div class="testimonial_user">
+										<div class="testimonial_image mx-auto">
+											<img src="images/testimonio3.jpg" alt="">
+										</div>
+										<div class="testimonial_name">Robert Cortéz</div>
+										<div class="testimonial_title">Ex-alumno de nuestro colegio</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="card-body card-body-cascade text-center">
+  
+		<h2 class="card-title text-danger"><strong>Proyectos Complementarios </strong></h2>
+	   <div>
+		   <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#fullHeightModalRight">
+	Documentos Varios
+  </button>
+  
+  <!-- Full Height Modal Right -->
+  <div class="modal fade right" id="fullHeightModalRight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+	aria-hidden="true">
+  
+	<!-- Add class .modal-full-height and then add class .modal-right (or other classes from list above) to set a position to the modal -->
+	<div class="modal-dialog modal-full-height modal-right" role="document">
+  
+  
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h4 class="modal-title w-90 text-dark " id="myModalLabel">Documentos</h4>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<a href="https://drive.google.com/file/d/1g70e2JetkCiI1c0PZWDTl_-petqfy95G/view?usp=sharing" target="_blank"> Manual de Convivencia  LCS</a><br>
+		   <a href="https://docs.google.com/document/d/1Ecjl-rJo-WupwSLPO367ZyhvQ90FkUdIx4tP5233E-U/edit?usp=sharing" target="_blank"> Planificacion LCS</a><br>
+		   <a href="caleendario.html" target="_blank"> Calendario 2020</a><br>
+		</div>
+		<div class="modal-footer justify-content-center">
+		  <button type="button" class="btn btn-light text-dark" data-dismiss="modal">Cerrar</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!-- Full Height Modal Right -->
+	   </div>
+		<h4 class="text-primary"> Buscanos en Facebook como: Liceo Santiagueño <a href="https://www.facebook.com/profile.php?id=100018298484303&sk=photos_all" target="_blank"class="px-2 fa-lg fb-ic "><i class="fab fa-facebook-f"></i></a></h4>
+	
+	  </div>
+	
+	
+  <!-- Events -->
+	
+	<div class="events page_section">
+		<div class="progress">
+			<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+		  </div>
+		<div class="container">
+			
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1 class="text-danger">Fechas Importantes</h1>
+					</div>
+				</div>
+			</div>
+					
+	<div class="event_items">
+		
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">08</div>
+									<div class="event_month">Junio</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><h2 class="text-info">Reinicio de Clases por Television MINED</h2></div>
+									<div class="event_location text-dark">Canal 10</div>
+									<p class="text-dark"> Aprendamos en Casa</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="images/event_3.jpg" alt="https://unsplash.com/@juanmramosjr">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+		
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">15</div>
+									<div class="event_month">Junio</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name text-info"><h2>Laboratorios Mensuales</h2></div>
+									<div class="event_location text-dark">Plataforma Google Classroom</div>
+									<p class="text-dark">Asignación de Laboratorios, por materia y niveles educativos</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="images/event_1.jpg" alt="https://unsplash.com/@theunsteady5">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+<!-- Event Item -->
+<div class="row event_item">
+	<div class="col">
+		<div class="row d-flex flex-row align-items-end">
+
+			<div class="col-lg-2 order-lg-1 order-2">
+				<div class="event_date d-flex flex-column align-items-center justify-content-center">
+					<div class="event_day">27</div>
+					<div class="event_month">Mayo</div>
+				</div>
+			</div>
+
+			<div class="col-lg-6 order-lg-2 order-3">
+				<div class="event_content">
+					<div class="event_name text-info"><h2>Entrega de Libretas de Notas</h2></div>
+					<div class="event_location text-dark">Instalaciones de Nuestro Colegio</div>
+					<p class="text-dark">Entrega de Calificaciones del primer trimestre para educacion parvualria y basica y de periodo para educacio media</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 order-lg-3 order-1">
+				<div class="event_image">
+					<img src="images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
+				</div>
+			</div>
+
+		</div>	
+	</div>
+</div>
+
+				
+	
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+	
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-3 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+								<span>LCS</span>
+							</div>
+						</div>
+
+						<p class="footer_about_text">Sabiduria y Enseñanza</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Menu</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Inicio</a></li>
+								<li class="footer_list_item"><a href="instalaciones.html">Instalaciones</a></li>
+								<li class="footer_list_item"><a href="courses.html">Oferta Academica</a></li>
+								<li class="footer_list_item"><a href="50años.html">50 Años</a></li>
+								<li class="footer_list_item"><a href="novedades.html">Novedades</a></li>
+								<li class="footer_list_item"><a href="contact.html">Contacto</a></li>
+								
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Use nuestros Links</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="fundadores.html">Fundadores</a></li>
+								<li class="footer_list_item"><a href="director.html">Director</a></li>
+								<li class="footer_list_item"><a href="teachers.html">Nuestros Docentes</a></li>
+								<li class="footer_list_item"><a href="courses.html">Oferta Academica</a></li>
+								<li class="footer_list_item"><a href="novedades.html">Novedades</a></li>
+								
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Contacto</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									Santiago de María departamento de Usulután, en la segunda calle oriente, Barrio la Parroquia. 
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+								2556-5405
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>lcs_edu@gmail.com
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+				<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | sitio web <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#" target="_blank">LCS</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="js/alert.js"></script>
+</body>
+</html>
